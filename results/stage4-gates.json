@@ -1,0 +1,458 @@
+{
+ "normalization": [
+  {
+   "model": "yule",
+   "params": [
+    1.3
+   ],
+   "total": 1.0000000000000309,
+   "ok": true
+  },
+  {
+   "model": "zeta",
+   "params": [
+    2.0
+   ],
+   "total": 1.0000000000003038,
+   "ok": true
+  },
+  {
+   "model": "logseries",
+   "params": [
+    0.99
+   ],
+   "total": 0.9999999999999998,
+   "ok": true
+  },
+  {
+   "model": "sichel",
+   "params": [
+    0.97
+   ],
+   "total": 1.0,
+   "ok": true
+  },
+  {
+   "model": "waring",
+   "params": [
+    1.3,
+    0.7
+   ],
+   "total": 1.0000000000000957,
+   "ok": true
+  },
+  {
+   "model": "waring",
+   "params": [
+    1.3,
+    -0.5
+   ],
+   "total": 1.0000000000000073,
+   "ok": true
+  },
+  {
+   "model": "cutoff",
+   "params": [
+    1.3,
+    0.999
+   ],
+   "total": 0.9999999999999998,
+   "ok": true
+  },
+  {
+   "model": "cutoff",
+   "params": [
+    1.3,
+    1.0
+   ],
+   "total": 1.0000000000000304,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    -0.5,
+    0.97
+   ],
+   "total": 1.0,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    -0.5,
+    1.0
+   ],
+   "total": 0.9999999996726999,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    0.7,
+    0.9
+   ],
+   "total": 0.9999999999999998,
+   "ok": true
+  },
+  {
+   "model": "gigp",
+   "params": [
+    -0.5,
+    0.5,
+    0.97
+   ],
+   "total": 1.0,
+   "ok": true
+  },
+  {
+   "model": "gigp",
+   "params": [
+    1.2,
+    2.0,
+    0.9
+   ],
+   "total": 0.9999999999999988,
+   "ok": true
+  }
+ ],
+ "samplers": [
+  {
+   "model": "yule",
+   "params": [
+    1.3
+   ],
+   "sampler": "exact",
+   "x2": 9.974537985293502,
+   "p": 0.44272999811915137,
+   "ok": true
+  },
+  {
+   "model": "yule",
+   "params": [
+    1.3
+   ],
+   "sampler": "table",
+   "x2": 9.900291176870297,
+   "p": 0.44928427755321343,
+   "ok": true
+  },
+  {
+   "model": "zeta",
+   "params": [
+    2.0
+   ],
+   "sampler": "exact",
+   "x2": 8.357636741267896,
+   "p": 0.5939472385958439,
+   "ok": true
+  },
+  {
+   "model": "zeta",
+   "params": [
+    2.0
+   ],
+   "sampler": "table",
+   "x2": 17.583826917210576,
+   "p": 0.06240301133755045,
+   "ok": true
+  },
+  {
+   "model": "logseries",
+   "params": [
+    0.99
+   ],
+   "sampler": "exact",
+   "x2": 5.556916152181567,
+   "p": 0.8510153954610704,
+   "ok": true
+  },
+  {
+   "model": "logseries",
+   "params": [
+    0.99
+   ],
+   "sampler": "table",
+   "x2": 12.533724013835378,
+   "p": 0.2509220441545315,
+   "ok": true
+  },
+  {
+   "model": "sichel",
+   "params": [
+    0.97
+   ],
+   "sampler": "table",
+   "x2": 6.859966510657556,
+   "p": 0.7385955436202861,
+   "ok": true
+  },
+  {
+   "model": "waring",
+   "params": [
+    1.3,
+    0.7
+   ],
+   "sampler": "exact",
+   "x2": 4.017053257146891,
+   "p": 0.9465744004359384,
+   "ok": true
+  },
+  {
+   "model": "waring",
+   "params": [
+    1.3,
+    0.7
+   ],
+   "sampler": "table",
+   "x2": 14.518198795630699,
+   "p": 0.1506395332615714,
+   "ok": true
+  },
+  {
+   "model": "waring",
+   "params": [
+    1.3,
+    -0.5
+   ],
+   "sampler": "exact",
+   "x2": 8.611505783116698,
+   "p": 0.5693263889114991,
+   "ok": true
+  },
+  {
+   "model": "waring",
+   "params": [
+    1.3,
+    -0.5
+   ],
+   "sampler": "table",
+   "x2": 13.101837620036477,
+   "p": 0.21803358430243908,
+   "ok": true
+  },
+  {
+   "model": "cutoff",
+   "params": [
+    1.3,
+    0.999
+   ],
+   "sampler": "exact",
+   "x2": 5.261226884823754,
+   "p": 0.873058601881257,
+   "ok": true
+  },
+  {
+   "model": "cutoff",
+   "params": [
+    1.3,
+    0.999
+   ],
+   "sampler": "table",
+   "x2": 15.228731839853237,
+   "p": 0.12394256481059675,
+   "ok": true
+  },
+  {
+   "model": "cutoff",
+   "params": [
+    1.3,
+    1.0
+   ],
+   "sampler": "exact",
+   "x2": 8.312470782243858,
+   "p": 0.5983441488346068,
+   "ok": true
+  },
+  {
+   "model": "cutoff",
+   "params": [
+    1.3,
+    1.0
+   ],
+   "sampler": "table",
+   "x2": 5.161799594907204,
+   "p": 0.8801107349836195,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    -0.5,
+    0.97
+   ],
+   "sampler": "table",
+   "x2": 7.620508821810778,
+   "p": 0.6658500377142065,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    -0.5,
+    1.0
+   ],
+   "sampler": "table",
+   "x2": 4.668916906882736,
+   "p": 0.9121698835645741,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    0.7,
+    0.9
+   ],
+   "sampler": "exact",
+   "x2": 6.809164168936248,
+   "p": 0.7433298400196122,
+   "ok": true
+  },
+  {
+   "model": "enb",
+   "params": [
+    0.7,
+    0.9
+   ],
+   "sampler": "table",
+   "x2": 3.2256629362819482,
+   "p": 0.9756034864832098,
+   "ok": true
+  },
+  {
+   "model": "gigp",
+   "params": [
+    -0.5,
+    0.5,
+    0.97
+   ],
+   "sampler": "exact",
+   "x2": 11.790560680815835,
+   "p": 0.2993180676212638,
+   "ok": true
+  },
+  {
+   "model": "gigp",
+   "params": [
+    -0.5,
+    0.5,
+    0.97
+   ],
+   "sampler": "table",
+   "x2": 17.193875378512992,
+   "p": 0.07018258923150174,
+   "ok": true
+  },
+  {
+   "model": "gigp",
+   "params": [
+    1.2,
+    2.0,
+    0.9
+   ],
+   "sampler": "exact",
+   "x2": 5.169252826554673,
+   "p": 0.8795886251921875,
+   "ok": true
+  },
+  {
+   "model": "gigp",
+   "params": [
+    1.2,
+    2.0,
+    0.9
+   ],
+   "sampler": "table",
+   "x2": 12.861759974074285,
+   "p": 0.23150402632087574,
+   "ok": true
+  }
+ ],
+ "nesting": [
+  {
+   "check": "waring c=0",
+   "rho": 1.0,
+   "diff": 0.0,
+   "ok": true
+  },
+  {
+   "check": "cutoff b=1",
+   "rho": 1.0,
+   "diff": 0.0,
+   "ok": true
+  },
+  {
+   "check": "waring c=0",
+   "rho": 1.277,
+   "diff": 0.0,
+   "ok": true
+  },
+  {
+   "check": "cutoff b=1",
+   "rho": 1.277,
+   "diff": 3.637978807091713e-12,
+   "ok": true
+  },
+  {
+   "check": "waring c=0",
+   "rho": 1.6,
+   "diff": 0.0,
+   "ok": true
+  },
+  {
+   "check": "cutoff b=1",
+   "rho": 1.6,
+   "diff": 0.0,
+   "ok": true
+  },
+  {
+   "check": "enb r->0 (r=1e-12)",
+   "theta": 0.9,
+   "diff": -2.5920599000528455e-09,
+   "ok": true
+  },
+  {
+   "check": "gigp alpha->0 (nu=0.7, alpha=1e-9)",
+   "theta": 0.9,
+   "diff": 8.185452315956354e-11,
+   "ok": true
+  },
+  {
+   "check": "enb r->0 (r=1e-12)",
+   "theta": 0.99,
+   "diff": -1.0526491678319871e-08,
+   "ok": true
+  },
+  {
+   "check": "gigp alpha->0 (nu=0.7, alpha=1e-9)",
+   "theta": 0.99,
+   "diff": 2.9103830456733704e-11,
+   "ok": true
+  },
+  {
+   "check": "sichel = enb(r=-0.5)",
+   "theta": 0.97,
+   "diff": 0.0,
+   "ok": true
+  }
+ ],
+ "gigp_negative_nu_trend": [
+  {
+   "alpha": 0.01,
+   "diff": 0.4255203773955145
+  },
+  {
+   "alpha": 0.0001,
+   "diff": 0.005119003733852878
+  },
+  {
+   "alpha": 1e-06,
+   "diff": 4.0571376302978024e-05
+  }
+ ],
+ "smolinsky": {
+  "s": 1.9664941808988354,
+  "ok": true
+ },
+ "pass": true
+}

@@ -1,0 +1,6 @@
+quantity,value,page,source_words
+k_tokens,260430,23,"with its 260,430 running words"
+n_types,29899,23,"there are 29,899 different words in the 260,430 running words"
+f1,16432,31,"the 16,432 different words that occur one time"
+f2,4776,31,"the 4,776 words that occur twice"
+f3,2194,31,"the 2,194 words that occur three times"

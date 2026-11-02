@@ -1,0 +1,28 @@
+CLAIM S1.recipe11 {'chicago': 29.93, 'chem': 275.76824506676076, 'physicists': 36.55014165580451, 'econometrica': 18.10218228708129} :: found :: | recipe estimate | 29.9 | 275.8 | 36.6 | 18.1 |
+CLAIM S1.tail_counts (3, 1) :: found :: exceed them in 1 of 4: Chicago only
+CLAIM S1.chem_shortfall 59.231754933239245 :: found :: 59.2 persons
+CLAIM S1.labels_T3 {'exact': 22, 'reproduced-under-X': 12, 'not reproduced': 6, 'reproduced-under-X (weak)': 1, 'rounding slip': 2} :: found :: | Table 3 (43 cells) | 22 | 13 (one weak) | 2 | 6 |
+CLAIM S1.chem_step_rho 1.491 :: found :: Chem: 1.49 vs 1.43
+CLAIM S2.smolinsky 1.9664941808988354 :: found :: α̂ = 1.966494
+CLAIM S2.rho_prime_hit 1.0673 :: found :: at 1.0673 (n = 102)
+CLAIM S3.G_chicago -0.37049877052676417 :: found :: | −0.370 |
+CLAIM S3.selftest (0.935, 0.953) :: found :: 93.5–95.3%
+CLAIM R.cells 152 :: found :: All 152 table cells were typed from the reprint images
+CLAIM S4.sichel 0.9687590057528902 :: found :: θ = 0.968759, which rounds to Sichel's 0.96876
+CLAIM S4.P7a 66.62942721731088 :: found :: ΔAIC 66.6
+CLAIM S4.grade.chicago 0.016 :: found :: | Chicago | 8 | 0.016 | rejected | 8.6 |
+CLAIM S4.grade.chem 0.0 :: found :: | Chem | 0 | 0.000 | rejected | 73.3 |
+CLAIM S4.grade.physicists 0.064 :: found :: | Physicists | 32 | 0.064 | not rejected | 7.2 |
+CLAIM S4.grade.econometrica 0.006 :: found :: | Econometrica | 3 | 0.006 | rejected | 0.2 |
+CLAIM S4.zeta_range (2.0523820719980037, 7.505131576906049) :: found :: +2.05 (Econometrica) to +7.51 (Eldridge)
+CLAIM S4.zero_bound 0.005973551516349596 :: found :: upper bound on the bootstrap probability is 0.006
+CLAIM S4.phys_mc (np.float64(0.044184210946713244), np.float64(0.08915062755086343)) :: found :: 95% simulation interval of 0.044–0.089
+CLAIM S5.n [29021, 29776, 29737] :: found :: held (29,021 / 29,776 / 29,737)
+CLAIM S5.x_recounts (0.14506485733018226, 0.16190744139466046) :: found :: held (x̂ 0.145–0.162)
+CLAIM S5.x_eldridge 0.020513799533710936 :: found :: | Eldridge | 0.021 |
+CLAIM S5.x_hanley 0.17804675037922582 :: found :: | Hanley (censored at 4) | 0.178 |
+CLAIM S5.p_recounts (0.198, 0.23) :: found :: (p 0.20–0.23)
+CLAIM S5.E3 [1.0094165832693531, 0.9960088206424398, 1.008397605451445, 1.0083453025234324] :: found :: | Eldridge | 0.83 ✗ | −0.03 ✗ | 1.01 ✓ |
+CLAIM S5.leisen_T2 1.092309390883705 :: found :: T2 gives 1.092 (CI 1.077–1.108)
+CLAIM S6.points 198 :: found :: figures, 198 points
+27 claims, 0 mismatches

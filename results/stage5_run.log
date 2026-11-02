@@ -1,0 +1,58 @@
+gates pass=True
+{
+ "grades": {
+  "C1_eldridge": true,
+  "C2": {
+   "eldridge": true,
+   "hanley": true,
+   "T1": true,
+   "T2": true,
+   "T3": true
+  },
+  "C3": {
+   "eldridge": {
+    "E1": false,
+    "E2": false,
+    "E3": true
+   },
+   "T1": {
+    "E1": true,
+    "E2": false,
+    "E3": true
+   },
+   "T2": {
+    "E1": true,
+    "E2": false,
+    "E3": true
+   },
+   "T3": {
+    "E1": true,
+    "E2": false,
+    "E3": true
+   }
+  },
+  "C4_about_02": {
+   "hanley": true,
+   "T1": true,
+   "T2": true,
+   "T3": true
+  },
+  "C4_close_to_zero_eldridge": true,
+  "C4_good_fit": {
+   "eldridge": false,
+   "hanley": true,
+   "T1": true,
+   "T2": true,
+   "T3": true
+  },
+  "C4_ordering": true
+ },
+ "predictions": {
+  "P16": true,
+  "P17": true,
+  "P18": true,
+  "P19": true,
+  "P20": false,
+  "P21": true
+ }
+}

@@ -1,0 +1,165 @@
+{
+  "label_counts": {
+    "T1": {
+      "exact": 26,
+      "rounding slip": 2
+    },
+    "T2": {
+      "not reproduced": 5,
+      "reproduced-under-X": 1
+    },
+    "T3": {
+      "exact": 22,
+      "reproduced-under-X": 12,
+      "not reproduced": 6,
+      "reproduced-under-X (weak)": 1,
+      "rounding slip": 2
+    }
+  },
+  "single_combination_reproducing_whole_column": {
+    "ulysses": [],
+    "eldridge": [],
+    "chicago": [
+      "C6a+B2+R1",
+      "C6b+B2+R1"
+    ],
+    "chem": [],
+    "physicists": [],
+    "econometrica": []
+  },
+  "sentence_grades": {
+    "printed": {
+      "S1": {
+        "per_column": {
+          "chicago": true,
+          "chem": true,
+          "physicists": true,
+          "econometrica": true
+        },
+        "holds": true
+      },
+      "S2": {
+        "primary_per_column": {
+          "chicago": true,
+          "chem": true,
+          "physicists": true,
+          "econometrica": true
+        },
+        "cells_est_lt_obs_of_8": {
+          "chicago": 4,
+          "chem": 6,
+          "physicists": 6,
+          "econometrica": 4
+        },
+        "holds": true
+      },
+      "S3": {
+        "per_column": {
+          "chicago": true,
+          "chem": false,
+          "physicists": true,
+          "econometrica": true
+        },
+        "count": 3,
+        "holds": true
+      }
+    },
+    "recipe": {
+      "S1": {
+        "per_column": {
+          "chicago": true,
+          "chem": true,
+          "physicists": true,
+          "econometrica": true
+        },
+        "holds": true
+      },
+      "S2": {
+        "primary_per_column": {
+          "chicago": true,
+          "chem": true,
+          "physicists": true,
+          "econometrica": true
+        },
+        "cells_est_lt_obs_of_8": {
+          "chicago": 4,
+          "chem": 6,
+          "physicists": 6,
+          "econometrica": 4
+        },
+        "holds": true
+      },
+      "S3": {
+        "per_column": {
+          "chicago": true,
+          "chem": false,
+          "physicists": false,
+          "econometrica": false
+        },
+        "count": 1,
+        "holds": false
+      }
+    }
+  },
+  "footer": {
+    "chem": {
+      "alpha_exact": 0.30040542307859974,
+      "rho_exact": 1.4293993020937188,
+      "alpha_printed": 0.3,
+      "rho_printed": 1.43,
+      "alpha_ok": true,
+      "rho_ok": true
+    },
+    "physicists": {
+      "alpha_exact": 0.39016489988221437,
+      "rho_exact": 1.6397875422501207,
+      "alpha_printed": 0.39,
+      "rho_printed": 1.64,
+      "alpha_ok": true,
+      "rho_ok": true
+    },
+    "econometrica": {
+      "alpha_exact": 0.40989198408186467,
+      "rho_exact": 1.6946050096339114,
+      "alpha_printed": 0.41,
+      "rho_printed": 1.69,
+      "alpha_ok": true,
+      "rho_ok": true
+    },
+    "chicago": {
+      "rho_bar_exact": 0.9172413793103448,
+      "rho_bar_p1_3dp": 0.9157088122605364,
+      "rho_printed": 0.916,
+      "alpha_exact_n_over_k": 0.24733096085409254
+    },
+    "ulysses": {
+      "alpha_exact": 0.11480628191836578,
+      "alpha_printed": 0.115,
+      "alpha_ok": true,
+      "rho_exact": 1.1296962230676133
+    },
+    "eldridge": {
+      "alpha_exact": 0.1364432017095183,
+      "alpha_printed": 0.136,
+      "alpha_ok": true,
+      "rho_exact": 1.1580014215389476
+    }
+  },
+  "rho_prime_any_match": false,
+  "head_check_4_2": {
+    "ulysses": {
+      "x_from_f1_over_n": 0.1804406037000974,
+      "x_from_f2_over_f1": 0.18050789293067945,
+      "x_from_f3_over_f2": 0.30054221533694825,
+      "head_consistent": false,
+      "any_negative": false
+    },
+    "eldridge": {
+      "x_from_f1_over_n": -0.016801075268817467,
+      "x_from_f2_over_f1": -0.13758566157090135,
+      "x_from_f3_over_f2": 0.1669626998223801,
+      "head_consistent": false,
+      "any_negative": true
+    }
+  }
+}

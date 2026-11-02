@@ -1,0 +1,10 @@
+# Every file in this repository is UTF-8 with LF endings, and the integrity model is
+# byte-exact: the SHA-256 values in data/raw/MANIFEST.csv and PREREGISTRATION.md, the
+# byte-identical figure and reader-page rebuilds, and the tests compare bytes rather
+# than text. Platform newline translation would silently break them, so LF is
+# enforced here instead of being left to each cloner's core.autocrlf.
+* text=auto eol=lf
+*.png binary
+# The one exception: the Project Gutenberg file is kept byte-for-byte as downloaded
+# (CRLF), because its SHA-256 in data/raw/MANIFEST.csv is the custody record.
+data/raw/gutenberg4300/pg4300.txt -text

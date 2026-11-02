@@ -1,0 +1,34 @@
+family,candidate,value,rounds_to,matches_1_07
+F1,log(S(1)/S(2))/log 2,0.9390,0.94,False
+F1,log(S(1)/S(3))/log 3,0.9126,0.91,False
+F1,log(S(1)/S(4))/log 4,0.9168,0.92,False
+F1,log(S(1)/S(5))/log 5,0.8935,0.89,False
+F1,log(S(1)/S(6))/log 6,0.9043,0.90,False
+F1,log(S(1)/S(7))/log 7,0.9836,0.98,False
+F1,log(S(1)/S(8))/log 8,0.9830,0.98,False
+F1,log(S(1)/S(9))/log 9,0.9699,0.97,False
+F1,log(S(1)/S(10))/log 10,1.0638,1.06,False
+F1,log(S(1)/S(11))/log 11,1.0393,1.04,False
+F1,log(S(1)/S(12))/log 12,1.0591,1.06,False
+F1,log(S(1)/S(13))/log 13,1.1383,1.14,False
+F1,log(S(1)/S(14))/log 14,1.1324,1.13,False
+F1,log(S(1)/S(15))/log 15,1.1310,1.13,False
+F1,log(S(1)/S(16))/log 16,1.1335,1.13,False
+F1,log(S(1)/S(19))/log 19,1.1293,1.13,False
+F1,log(S(1)/S(20))/log 20,1.1451,1.15,False
+F1,log(S(1)/S(21))/log 21,1.1654,1.17,False
+F1,log(S(1)/S(24))/log 24,1.1585,1.16,False
+F1,log(S(1)/S(27))/log 27,1.1639,1.16,False
+F1,log(S(1)/S(32))/log 32,1.1594,1.16,False
+F1,log(S(1)/S(35))/log 35,1.1929,1.19,False
+F1,log(S(1)/S(39))/log 39,1.2362,1.24,False
+F1,log(S(1)/S(42))/log 42,1.3202,1.32,False
+F1,log(S(1)/S(70))/log 70,1.3246,1.32,False
+F2,"zeta MLE x_min=1 (n=278), alpha-1",0.8010,0.80,False
+F2,"zeta MLE x_min=2 (n=145), alpha-1",0.9335,0.93,False
+F2,"zeta MLE x_min=3 (n=102), alpha-1",1.0673,1.07,True
+F2,"zeta MLE x_min=4 (n=78), alpha-1",1.1801,1.18,False
+F2,"zeta MLE x_min=5 (n=66), alpha-1",1.3672,1.37,False
+F3,"Yule MLE, full table",1.0179,1.02,False
+F4,"OLS log S(x) on log x, full support",1.3464,1.35,False
+F5,Davis p.429 slope 2.11012 minus 1,1.1101,1.11,False

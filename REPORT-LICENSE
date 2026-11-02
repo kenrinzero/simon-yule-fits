@@ -1,0 +1,45 @@
+CC-BY-4.0 — the analysis documents
+
+The following are licensed under the Creative Commons Attribution 4.0
+International License (CC-BY-4.0):
+
+    REPORT.md
+    README.md
+    CREDITS.md
+    PREREGISTRATION.md
+    CLAIM_INVENTORY.md
+    INVESTIGATION_CHECKLIST.md
+    paper/PROVENANCE.md
+    data/sources/ADJUDICATION.md
+    every AUDIT-*.md at the repository root
+    every document under results/, Markdown, JSON, CSV and plain-text alike
+
+    SPDX-License-Identifier: CC-BY-4.0
+    Copyright (c) 2026 kenrinzero
+    License text: https://creativecommons.org/licenses/by/4.0/legalcode
+    Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, indicate changes, and link
+to the license.
+
+Three carve-outs, stated so the boundary is not guessed at:
+
+1. Code under src/ and tests/ is MIT, not CC-BY-4.0 — see LICENSE. The
+   reviewer's check script under results/audit-2026-11-02/ is code and is
+   also MIT.
+2. Source material is NOT ours to relicense. Simon's 1955 article, the 1957
+   Models of Man reprint, and the page scans of Davis (1941), Lotka (1926),
+   Eldridge (1911) and Zipf (1949) are not redistributed. Their URLs, retrieval
+   dates, byte sizes and SHA-256 hashes are in data/raw/MANIFEST.csv. The
+   tables transcribed from them (data/printed_tables.csv,
+   data/reprint_1957_models_of_man.csv, data/sources/*.csv) record published
+   counts, and the transcriptions are offered under CC-BY-4.0 only to the
+   extent that they are ours to license.
+3. data/raw/gutenberg4300/pg4300.txt is Project Gutenberg eBook #4300
+   (James Joyce, Ulysses), public domain in the United States, redistributed
+   unchanged with its Project Gutenberg header and licence, which govern it.
+
+Attribution note for adapters: the honest citation of this material names the
+owner as director and the contributing AI agents as authors of the analysis —
+see CREDITS.md, which is the authoritative statement of who did what.

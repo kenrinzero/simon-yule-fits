@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "check": "Davis p.429 Chicago persons sum = printed total = 278",
+      "ok": true,
+      "detail": "sum=278 printed=278"
+    },
+    {
+      "check": "Davis p.429 Chicago k = 1,124 (Simon's k)",
+      "ok": true,
+      "detail": "k=1124"
+    },
+    {
+      "check": "Davis p.430 y(actual) = #persons with >= x-3 contributions (7-wide classes)",
+      "ok": true,
+      "detail": "mismatches=[]"
+    },
+    {
+      "check": "Davis p.431 Chem persons sum = printed total = 6,891",
+      "ok": true,
+      "detail": "sum=6891"
+    },
+    {
+      "check": "Davis p.431 Chem k vs Simon's 22,939",
+      "ok": true,
+      "detail": "k=22939"
+    },
+    {
+      "check": "Davis p.431 Auerbach persons sum = printed total = 1,325",
+      "ok": true,
+      "detail": "sum=1325"
+    },
+    {
+      "check": "Davis p.431 Auerbach k vs Simon's 3,396 (report)",
+      "ok": false,
+      "detail": "k=3398 (Simon prints 3,396)"
+    },
+    {
+      "check": "Lotka Table 1 column A sums to printed Total 1543",
+      "ok": true,
+      "detail": "sum=1543 printed=1543"
+    },
+    {
+      "check": "Lotka Table 1 column B sums to printed Total 5348",
+      "ok": true,
+      "detail": "sum=5348 printed=5348"
+    },
+    {
+      "check": "Lotka Table 1 column AB sums to printed Total 6891",
+      "ok": true,
+      "detail": "sum=6891 printed=6891"
+    },
+    {
+      "check": "Lotka Table 1 column auerbach sums to printed Total 1325",
+      "ok": true,
+      "detail": "sum=1325 printed=1325"
+    },
+    {
+      "check": "Lotka Table 1 A + B = A+B in every row",
+      "ok": true,
+      "detail": "failing rows=[]"
+    },
+    {
+      "check": "Davis p.431 = Lotka Table 1 (AB) row by row after resolving ranges",
+      "ok": true,
+      "detail": "diffs=[] davis_n_outside_lotka_rows=[]"
+    },
+    {
+      "check": "Davis p.431 = Lotka Table 1 (auerbach) row by row after resolving ranges",
+      "ok": true,
+      "detail": "diffs=[] davis_n_outside_lotka_rows=[]"
+    },
+    {
+      "check": "Eldridge: 238 words with >= 20 and 261 with 10-19",
+      "ok": true,
+      "detail": "n20=238 n10=261"
+    },
+    {
+      "check": "Eldridge: 6,002 types",
+      "ok": true,
+      "detail": "types=6002"
+    },
+    {
+      "check": "Eldridge: 43,989 tokens",
+      "ok": true,
+      "detail": "tokens=43989; i>=10 tokens=31984 (needed 31984)"
+    },
+    {
+      "check": "Zipf 1949: Ulysses k=260,430, n=29,899, f1..f3 = 16,432/4,776/2,194",
+      "ok": true,
+      "detail": "{'k_tokens': 260430, 'n_types': 29899, 'f1': 16432, 'f2': 4776, 'f3': 2194}"
+    },
+    {
+      "check": "Chem zeta MLE (x_min=1) = 1.9665 (Smolinsky 2015)",
+      "ok": true,
+      "detail": "alpha=1.966494 LL=-11705.31 (Smolinsky -11705.1) N=6891"
+    }
+  ],
+  "all_pass": true,
+  "rho_prime": {
+    "grade": "consistent with zeta MLE x_min=3 (n=102), alpha-1",
+    "matches": [
+      "zeta MLE x_min=3 (n=102), alpha-1"
+    ],
+    "n_candidates": 33
+  }
+}

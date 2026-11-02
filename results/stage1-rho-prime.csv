@@ -1,0 +1,17 @@
+candidate,value,rounds_to,matches_1_07
+E1 f1/f2-2,1.0930,1.09,False
+E2 log(S1/S2)/log2,0.9390,0.94,False
+E2 log(S1/S3)/log3,0.9126,0.91,False
+E2 log(S1/S4)/log4,0.9168,0.92,False
+E2 log(S1/S5)/log5,0.8935,0.89,False
+E2 log(S1/S6)/log6,0.9043,0.90,False
+E2 log(S1/S7)/log7,0.9836,0.98,False
+E2 log(S1/S8)/log8,0.9830,0.98,False
+E2 log(S1/S9)/log9,0.9699,0.97,False
+E2 log(S1/S10)/log10,1.0638,1.06,False
+E2 log(S1/S11)/log11,1.0393,1.04,False
+E3 OLS logf i=1..10,0.7087,0.71,False
+E3 OLS logf i=2..10,0.7935,0.79,False
+E3 OLS logf i=3..10,0.9377,0.94,False
+E4 OLS logS i=1..11,1.0330,1.03,False
+E5 Yule MLE censored 11+,0.9581,0.96,False

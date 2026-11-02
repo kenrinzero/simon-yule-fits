@@ -1,0 +1,78 @@
+table,set,cell,printed,recipe,recipe_rounded,label,reproducing,n_tried
+T1,alpha=0.0,rho,1,1.000000,1,exact,,1
+T1,alpha=0.0,f1_over_n,0.500,0.500000,0.500,exact,,1
+T1,alpha=0.0,f2_over_n,0.167,0.166667,0.167,exact,,1
+T1,alpha=0.0,f3_over_n,0.083,0.083333,0.083,exact,,1
+T1,alpha=0.1,rho,1.11,1.111111,1.11,exact,,1
+T1,alpha=0.1,f1_over_n,0.527,0.526316,0.526,rounding slip,,1
+T1,alpha=0.1,f2_over_n,0.169,0.169173,0.169,exact,,1
+T1,alpha=0.1,f3_over_n,0.082,0.082300,0.082,exact,,1
+T1,alpha=0.2,rho,1.25,1.250000,1.25,exact,,1
+T1,alpha=0.2,f1_over_n,0.556,0.555556,0.556,exact,,1
+T1,alpha=0.2,f2_over_n,0.171,0.170940,0.171,exact,,1
+T1,alpha=0.2,f3_over_n,0.080,0.080442,0.080,exact,,1
+T1,alpha=0.3,rho,1.43,1.428571,1.43,exact,,1
+T1,alpha=0.3,f1_over_n,0.588,0.588235,0.588,exact,,1
+T1,alpha=0.3,f2_over_n,0.171,0.171569,0.172,rounding slip,,1
+T1,alpha=0.3,f3_over_n,0.077,0.077483,0.077,exact,,1
+T1,alpha=0.5,rho,2.00,2.000000,2.00,exact,,1
+T1,alpha=0.5,f1_over_n,0.667,0.666667,0.667,exact,,1
+T1,alpha=0.5,f2_over_n,0.167,0.166667,0.167,exact,,1
+T1,alpha=0.5,f3_over_n,0.067,0.066667,0.067,exact,,1
+T1,alpha=0.7,rho,3.33,3.333333,3.33,exact,,1
+T1,alpha=0.7,f1_over_n,0.769,0.769231,0.769,exact,,1
+T1,alpha=0.7,f2_over_n,0.144,0.144231,0.144,exact,,1
+T1,alpha=0.7,f3_over_n,0.046,0.045547,0.046,exact,,1
+T1,alpha=0.9,rho,10.00,10.000000,10.00,exact,,1
+T1,alpha=0.9,f1_over_n,0.909,0.909091,0.909,exact,,1
+T1,alpha=0.9,f2_over_n,0.076,0.075758,0.076,exact,,1
+T1,alpha=0.9,f3_over_n,0.012,0.011655,0.012,exact,,1
+T2,ulysses,1,15850,15859.91,15860,not reproduced,,21
+T2,ulysses,2,4870,5067.56,5068,not reproduced,,21
+T2,ulysses,3,2220,2454.20,2454,not reproduced,,21
+T2,eldridge,1,3220,3220.72,3221,reproduced-under-X,A1+B1+R2;A1+B1+R3;A1+B3+R2;A1+B3+R3;A2+B1+R1;A2+B1+R2;A2+B1+R3;A2+B3+R1;A2+B3+R2;A2+B3+R3,21
+T2,eldridge,2,977,1019.86,1020,not reproduced,,21
+T2,eldridge,3,400,490.55,491,not reproduced,,21
+T3,chicago,2,46,45.59,46,exact,C6a+B2+R1;C6a+B3+R1;C6b+B2+R1;C6b+B3+R1,12
+T3,chicago,3,23,23.28,23,exact,C6a+B2+R1;C6a+B3+R1;C6b+B2+R1;C6b+B3+R1,12
+T3,chicago,4,14,14.20,14,exact,C6a+B2+R1;C6a+B3+R1;C6a+B3+R2;C6b+B2+R1;C6b+B3+R1;C6b+B3+R2,12
+T3,chicago,5,10,9.60,10,exact,C6a+B2+R1;C6a+B2+R3;C6a+B3+R3;C6b+B2+R1;C6b+B2+R3;C6b+B3+R3,12
+T3,chicago,6,7,6.94,7,exact,C6a+B2+R1;C6a+B3+R1;C6b+B2+R1;C6b+B3+R1,12
+T3,chicago,7,5,5.26,5,exact,C6a+B2+R1;C6a+B3+R1;C6b+B2+R1;C6b+B3+R1,12
+T3,chicago,8,4,4.13,4,exact,C6a+B2+R1;C6a+B3+R1;C6b+B2+R1;C6b+B3+R1,12
+T3,chicago,9,3,3.33,3,exact,C6a+B2+R1;C6a+B3+R1;C6b+B2+R1;C6b+B3+R1,12
+T3,chicago,10,3,2.75,3,exact,C6a+B2+R1;C6b+B2+R1,12
+T3,chicago,11+,30,29.93,30,exact,C6a+B2+R1;C6b+B2+R1,12
+T3,chem,1,4050,4054.50,4054,reproduced-under-X,A1+B1+R2;A1+B1+R3;A1+B3+R2;A1+B3+R3;A2+B1+R2;A2+B1+R3;A2+B3+R2;A2+B3+R3;A4+R2;A4+R3,30
+T3,chem,2,1160,1182.28,1182,reproduced-under-X,A1+B2+R2;A1+B2+R3;A2+B2+R2;A2+B2+R3;A3+B2+R2;A3+B2+R3,30
+T3,chem,3,522,533.83,534,not reproduced,,30
+T3,chem,4,288,294.97,295,reproduced-under-X,A1+B3+R1;A1+B3+R2;A2+B3+R1;A2+B3+R2;A3+B3+R1;A3+B3+R2,27
+T3,chem,5,179,183.51,184,reproduced-under-X,A1+B3+R1;A1+B3+R2;A2+B3+R1;A2+B3+R2;A3+B3+R1;A3+B3+R2,27
+T3,chem,6,120,123.50,124,reproduced-under-X,A1+B1+R3;A1+B2+R3;A1+B3+R1;A1+B3+R2;A1+B3+R3;A2+B1+R3;A2+B2+R3;A2+B3+R1;A2+B3+R2;A2+B3+R3;A3+B1+R3;A3+B2+R3;A3+B3+R1;A3+B3+R2;A3+B3+R3,27
+T3,chem,7,86,87.91,88,reproduced-under-X (weak),A3+B2+R1,27
+T3,chem,8,64,65.26,65,reproduced-under-X,A1+B2+R1;A1+B3+R1;A2+B2+R1;A2+B3+R1;A3+B2+R1;A3+B3+R1,27
+T3,chem,9,49,50.06,50,reproduced-under-X,A1+B2+R1;A1+B3+R1;A2+B2+R1;A2+B3+R1;A3+B2+R1;A3+B3+R1,27
+T3,chem,10,38,39.42,39,rounding slip,,27
+T3,chem,11+,335,275.77,276,not reproduced,,27
+T3,physicists,1,824,823.07,823,rounding slip,,30
+T3,physicists,2,217,226.13,226,not reproduced,,30
+T3,physicists,3,94,97.47,97,reproduced-under-X,A1+B3+R1;A2+B3+R1;A3+B3+R1,30
+T3,physicists,4,50,51.85,52,reproduced-under-X,A1+B1+R3;A1+B2+R3;A1+B3+R1;A1+B3+R2;A1+B3+R3;A2+B1+R3;A2+B2+R3;A2+B3+R1;A2+B3+R2;A2+B3+R3;A3+B1+R3;A3+B2+R3;A3+B3+R1;A3+B3+R2;A3+B3+R3,27
+T3,physicists,5,30,31.24,31,reproduced-under-X,A1+B1+R3;A1+B2+R1;A1+B2+R3;A1+B3+R1;A1+B3+R3;A2+B1+R3;A2+B2+R1;A2+B2+R3;A2+B3+R1;A2+B3+R3;A3+B1+R3;A3+B2+R1;A3+B2+R3;A3+B3+R1;A3+B3+R3,27
+T3,physicists,6,20,20.44,20,exact,A1+B1+R1;A1+B1+R3;A1+B2+R3;A1+B3+R1;A1+B3+R3;A2+B1+R1;A2+B1+R3;A2+B2+R3;A2+B3+R1;A2+B3+R3;A3+B1+R1;A3+B1+R3;A3+B2+R3;A3+B3+R1;A3+B3+R3,27
+T3,physicists,7,14,14.20,14,exact,A1+B1+R1;A1+B2+R1;A1+B3+R1;A2+B1+R1;A2+B2+R1;A2+B3+R1;A3+B1+R1;A3+B2+R1;A3+B3+R1,27
+T3,physicists,8,10,10.31,10,exact,A1+B1+R1;A1+B1+R3;A1+B2+R1;A1+B2+R3;A1+B3+R1;A1+B3+R3;A2+B1+R1;A2+B1+R3;A2+B2+R1;A2+B2+R3;A2+B3+R1;A2+B3+R3;A3+B1+R1;A3+B1+R3;A3+B2+R1;A3+B2+R3;A3+B3+R1;A3+B3+R3,27
+T3,physicists,9,8,7.75,8,exact,A1+B1+R1;A1+B3+R1;A2+B1+R1;A2+B3+R1;A3+B1+R1;A3+B3+R1,27
+T3,physicists,10,6,5.99,6,exact,A1+B1+R1;A1+B2+R1;A1+B3+R1;A2+B1+R1;A2+B1+R2;A2+B2+R1;A2+B3+R1;A3+B1+R1;A3+B2+R1;A3+B3+R1,27
+T3,physicists,11+,52,36.55,37,not reproduced,,27
+T3,econometrica,1,453,453.43,453,exact,A1+B1+R1;A1+B1+R2;A1+B3+R1;A1+B3+R2;A2+B1+R1;A2+B1+R2;A2+B3+R1;A2+B3+R2;A3+B1+R1;A3+B1+R2;A3+B3+R1;A3+B3+R2,30
+T3,econometrica,2,119,122.73,123,not reproduced,,30
+T3,econometrica,3,51,52.28,52,reproduced-under-X,A1+B3+R1;A2+B3+R1;A3+B3+R1,30
+T3,econometrica,4,27,27.54,28,reproduced-under-X,A1+B3+R1;A2+B3+R1;A3+B2+R1;A3+B3+R1,27
+T3,econometrica,5,16,16.46,16,exact,A1+B1+R1;A1+B2+R1;A1+B3+R1;A2+B1+R1;A2+B2+R1;A2+B3+R1;A3+B2+R1;A3+B3+R1,27
+T3,econometrica,6,11,10.69,11,exact,A1+B1+R1;A2+B1+R1;A3+B1+R1,27
+T3,econometrica,7,7,7.38,7,exact,A1+B1+R1;A1+B2+R1;A2+B1+R1;A2+B2+R1;A3+B1+R1;A3+B2+R1,27
+T3,econometrica,8,5,5.33,5,exact,A1+B1+R1;A1+B2+R1;A1+B3+R1;A2+B1+R1;A2+B2+R1;A2+B3+R1;A3+B1+R1;A3+B2+R1;A3+B3+R1,27
+T3,econometrica,9,4,3.99,4,exact,A1+B1+R1;A1+B2+R1;A1+B3+R1;A2+B1+R1;A2+B2+R1;A2+B3+R1;A3+B1+R1;A3+B2+R1;A3+B3+R1,27
+T3,econometrica,10,3,3.07,3,exact,A1+B1+R1;A1+B2+R1;A1+B3+R1;A2+B1+R1;A2+B2+R1;A2+B3+R1;A3+B1+R1;A3+B2+R1;A3+B3+R1,27
+T3,econometrica,11+,25,18.10,18,not reproduced,,27

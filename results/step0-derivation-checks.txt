@@ -1,0 +1,36 @@
+PASS  D1 sum p(i)=1 (alpha=0.1): sum=1.000000000000
+PASS  D1 p(1)=1/(2-alpha) (alpha=0.1): p1=0.526315789473684
+PASS  D1 ratio (2.11) at i=5 (alpha=0.1): 0.654545454545455
+PASS  D2 mean = 1/alpha (alpha=0.1): mean=10.00000018 1/alpha=10.00000000
+PASS  D1 sum p(i)=1 (alpha=0.3): sum=1.000000000000
+PASS  D1 p(1)=1/(2-alpha) (alpha=0.3): p1=0.588235294117647
+PASS  D1 ratio (2.11) at i=5 (alpha=0.3): 0.622222222222222
+PASS  D2 mean = 1/alpha (alpha=0.3): mean=3.33333334 1/alpha=3.33333333
+PASS  D1 sum p(i)=1 (alpha=0.40989198): sum=1.000000000000
+PASS  D1 p(1)=1/(2-alpha) (alpha=0.40989198): p1=0.628888092772465
+PASS  D1 ratio (2.11) at i=5 (alpha=0.40989198): 0.597496043642235
+PASS  D2 mean = 1/alpha (alpha=0.40989198): mean=2.43966715 1/alpha=2.43966715
+PASS  D3 survival identity P(I>10)=10B(10,rho+1) (Chem rho): 0.0400186105161458 vs 0.0400186105161458; n_k*P = 275.76825
+PASS  D3 printed Chem 11+ = n_k - printed rows 1-10: 6891-6556=335
+PASS  D3 printed chicago 11+ = n_k - printed rows 1-10: 278-248=30 (printed 30)
+PASS  D3 printed physicists 11+ = n_k - printed rows 1-10: 1325-1273=52 (printed 52)
+PASS  D3 printed econometrica 11+ = n_k - printed rows 1-10: 721-696=25 (printed 25)
+PASS  D4 sum telescopes to 1/(1-x) (x=0.0): 1.0
+PASS  D4 f1/n = 1/(2-x) (x=0.0): 0.5
+PASS  D4 ratio (4.2) at i=2 (x=0.0): 0.333333333333333
+PASS  D4 tail slope -2 (x=0.0): -1.999996
+PASS  D4 sum telescopes to 1/(1-x) (x=0.2): 1.25
+PASS  D4 f1/n = 1/(2-x) (x=0.2): 0.555555555555556
+PASS  D4 ratio (4.2) at i=2 (x=0.2): 0.285714285714286
+PASS  D4 tail slope -2 (x=0.2): -1.999998
+PASS  D4 sum telescopes to 1/(1-x) (x=0.5): 2.0
+PASS  D4 f1/n = 1/(2-x) (x=0.5): 0.666666666666667
+PASS  D4 ratio (4.2) at i=2 (x=0.5): 0.2
+PASS  D4 tail slope -2 (x=0.5): -2.000000
+PASS  D5 (2.34) reduces (alpha=0.1): 1.111111
+PASS  D5 (2.34) reduces (alpha=0.3): 1.428571
+PASS  D5 (2.34) reduces (alpha=0.41): 1.694915
+PASS  D9 rho-bar exact does not round to 0.916: 0.91724
+PASS  D9 rho-bar from p1 at 3dp rounds to 0.916: p1=0.478 -> 0.91571
+
+ALL PASS

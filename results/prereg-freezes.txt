@@ -1,0 +1,9 @@
+Step 0: OK sha256 c089b3a03a389ece6bf72d434d3df593d19f66039da2cb79585b76ceaf66ae1c (rebuilt c089b3a03a389ece...); frozen 2026-11-01T21:02:34Z; first code (src/recipe.py) 2026-11-01T21:03:25Z
+Amendment 1: OK sha256 aa1f7e35352766daac8bd17ca8349b39788f381fd591aa4d7da85cfe3c7f48b4 (rebuilt aa1f7e35352766da...); frozen 2026-11-01T21:23:56Z; first code (src/stage2.py) 2026-11-01T21:25:27Z
+Amendment 2: OK sha256 376d2e99723f0fbe5a0726eca953feb650fb4a8139cdb694ac00b6850bd14e35 (rebuilt 376d2e99723f0fbe...); frozen 2026-11-01T21:31:51Z; first code (src/stage3.py) 2026-11-01T21:32:58Z
+Amendment 3: OK sha256 77d4dd9280dfdba35cde467cf030cf658d075e2b6315842802c7f46b04e12548 (rebuilt 77d4dd9280dfdba3...); frozen 2026-11-01T23:10:42Z; first code (src/stage4.py) 2026-11-01T23:13:57Z
+Amendment 4: OK sha256 3e9b615c2179283c20a39d509856465402106e21ee21f7a3c7a1018d78608e12 (rebuilt 3e9b615c2179283c...); frozen 2026-11-01T23:49:08Z; first code (src/stage5.py) 2026-11-01T23:49:54Z
+Erratum 1: OK sha256 7cdac4227a3a4231b3034414b699cc671bee740165f01dbcfccf7933433fe91a (rebuilt 7cdac4227a3a4231...); frozen 2026-11-02T00:22:06Z
+Erratum 2: OK sha256 b81676c9ce9ff632eb87dfe6c5d029e31131be6f29a89c4db37e623dbf399686 (rebuilt b81676c9ce9ff632...); frozen 2026-11-02T00:38:57Z
+Erratum 3: OK sha256 ccd3d9538509440af07d49552e9d9686ba7670f2978f11f759ee4392aeba0068 (rebuilt ccd3d9538509440a...); frozen 2026-11-02T00:59:00Z
+8 versions, 0 mismatches. Hashes are checkable by anyone; the times come from the implementing session's private log and are not externally verifiable.

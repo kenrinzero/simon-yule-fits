@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------------
+# Source material not redistributed (see README, "Source material")
+# ---------------------------------------------------------------------------
+
+# paper/ holds the JSTOR scan of Simon (1955), a copyrighted Biometrika article.
+# Only its provenance record is shipped. Every printed cell the analysis rests
+# on is transcribed in data/printed_tables.csv with its page locator.
+paper/*
+!paper/PROVENANCE.md
+
+# Page renders of the 1955 article (copyrighted), used for transcription.
+results/pages/
+
+# Third-party scans and OCR layers: Davis (1941), Lotka (1926), Eldridge (1911),
+# Zipf (1949), and two renders of the Models of Man (1957) reprint. URL,
+# retrieval date, byte size and SHA-256 of each are in data/raw/MANIFEST.csv;
+# the double-entered transcriptions are in data/sources/ and
+# data/reprint_1957_models_of_man.csv. Project Gutenberg #4300 is public domain
+# and is shipped.
+data/raw/*
+!data/raw/MANIFEST.csv
+!data/raw/gutenberg4300/
+
+# ---------------------------------------------------------------------------
+# Atelier working files (see README, "Working files not in this repository")
+# ---------------------------------------------------------------------------
+
+# The control-plane stub: orients an AI agent inside the owner's private project
+# tracker and carries absolute paths into it.
+AGENTS.md
+
+# ---------------------------------------------------------------------------
+# Build detritus
+# ---------------------------------------------------------------------------
+
+__pycache__/
+*.pyc
+.pytest_cache/
